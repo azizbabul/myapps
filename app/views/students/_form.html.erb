@@ -1,0 +1,13 @@
+<%= semantic_form_for @student do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :name %>
+    <%= f.input :email %>
+    <%= f.input :cell %>
+    <%= f.input :gender, :as => :radio ,  :collection => ["Male", "Female"]%>
+    <%= f.input :group, :as => :check_boxes, :collection => ["Justin", "Kate", "Amelia", "Gus", "Meg"] %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>

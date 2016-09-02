@@ -2,10 +2,16 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+<<<<<<< HEAD
 gem 'rails', '4.2.4'
 # Use mysql as the database for Active Record
 #gem 'mysql2'
 gem 'mysql2', '~> 0.3.18'
+=======
+gem 'rails', '4.2.2'
+# Use mysql as the database for Active Record
+gem 'mysql2'
+>>>>>>> 0517a1bc3017c3926cfce8639805c16b02e149d0
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -23,7 +29,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+<<<<<<< HEAD
 
+=======
+gem 'will_paginate'
+gem 'formtastic'
+>>>>>>> 0517a1bc3017c3926cfce8639805c16b02e149d0
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -36,9 +47,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+<<<<<<< HEAD
 end
 
 group :development do
+=======
+
+>>>>>>> 0517a1bc3017c3926cfce8639805c16b02e149d0
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
